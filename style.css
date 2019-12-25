@@ -1,3 +1,5 @@
+/* Caching note: increase version number in index.html if changes aren't showing */
+
 html {
   font-family:sans-serif;
   font-weight:normal;
@@ -37,6 +39,12 @@ h3 {
 
 ul {
   line-height:1.6em;
+  padding-left:0px;
+  list-style:none;
+}
+
+li {
+  padding-bottom:0.7em;
 }
 
 a {
