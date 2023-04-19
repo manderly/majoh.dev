@@ -15,11 +15,27 @@ body {
   color:#505050 ;
 }
 
+p {
+  line-height:1.6em;
+}
+
+.degree {
+  font-weight:bold;
+}
+
+.degrees-container {
+  margin: 0 auto 0 auto;
+}
+
+.school-name {
+  font-weight:normal;
+}
+
 /* Heading styles */
 h1,h2,h3,h4 {
   font-weight:normal;
   color:#000;
-  margin-bottom:5px;
+  margin-bottom:3px;
   text-transform:uppercase;
   color:#666;
 }
@@ -28,7 +44,7 @@ h2 {
   font-weight:bold;
   font-size:1.3em;
   letter-spacing:3px;
-  margin:1.5em 0 1.5em 0;
+  margin:1.5em 0 1em 0;
   text-align:center;
 }
 
@@ -146,10 +162,23 @@ a:hover{
 
 /* Technologies section */
 #technologies {
-  width:70%;
+  width:80%;
   display:block;
   margin:0 auto;
   text-align:center;
+}
+
+#education {
+  text-align:center;
+}
+
+#education h2 {
+  margin-bottom:0px;
+}
+
+#education p {
+  line-height:1.2em;
+  margin:2px 0px 20px 0px;
 }
 
 #technologies ul li {
